@@ -1,38 +1,38 @@
 ---
-title: "Femaie, middle-class income and elderly people play important role in voting for Liberal Political Party"
+title: "Gender, Income And Age Might Affect The Vote For Liberal Political Party" 
 author: "Fang Jia, Anan Jiang, Yilin Wang,Yao Xiao"
 date: "10/7/2020"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
-## Non technical summary
+## Non Technical Summary
 
-Voters play important roles in voting for different Parties in Canadian Elections. Our company is working for Liberal Party and provides them monthly polling updates in the overall election. We use the latest survey's data to explore if gender, age group, sexuality and economic class of income will lead voters to vote Liberal Party overall elections. We find that females, elderly groups and middle class groups play important roles in voting for Liberal Party while sexuality doesn't. These findings will help the Liberal Party to get a basic understanding of which group of people are more likely to support them. The report has some weakness such as data bias and respondent error. We will use more survey methods to get a larger sample size in the future.
+Voters play essential roles in voting for different Parties in Canadian Elections. Our company is working for the Liberal Party and provide them monthly polling updates in the general election. We used the latest survey data to explore if gender, age group, sexuality, and economic class of income would lead voters to vote for the Liberal Party general elections. We found that females, elderly groups, and middle-class groups play essential roles in voting for the Liberal Party while sexuality doesn't. These findings can help the Liberal Party get a basic understanding of which groups of people are more likely to support them. The report has some weaknesses, such as data bias and respondent error. We will use more survey methods to get a larger sample size in the future.
 
 
 ## Introudction
 
-In this paper, we investigate the polling data from the survey about age, gender, sexuality and income of voters who voted for Liberal Party. The purpose for this report is to explore if those factors will mainly affect the results of voting the Liberal Party. After all, our company hope the Liberal Party can get more supports by finding out what they could focus on and what they could improve. From the survey data we observe that female, over 61 ages group and middle class with household income 30,001-11,001 are three main groups who voted for the Liberal Party. All these survey data are referenced from real world parameter[1]. 
+In this paper, we investigated the polling data from the survey about age, gender, sexuality, and income of voters who voted for the Liberal Party. This report aims to explore if those factors will mainly affect the results of the votes for the Liberal Party. After all, our company hopes the Liberal Party can get more support by finding out what they could focus on and improving. From the survey data, we observed that females, over the 61 age group, and the middle class with household income 30,001-11,001 are the three main groups who voted for the Liberal Party. All these survey data are referenced from real-world parameters [1]. 
 
-There are four questions in this survey which ask your gender, sexuality, income and age group. We collect 5000 respondents regarding to four questions in survey. To make the observation more clear and easier to analyze, we make a data frame with four columns of variables and plot these variables into 4 graphs. Each graph shows a variable from gender, income, age and sexuality in x-axis and total count of 5000 in y-axis.
+Four questions in this survey ask your gender, sexuality, income, and age group. We collected 5000 respondents regarding four questions in the survey. To make the observation more precise and easier to analyze, we made a data frame with four columns of variables and plotted these variables into four graphs. Each graph shows a variable from gender, income, age, and sexuality in the x-axis and a total count of 5000 in the y-axis.
 
-In the following paper, it is contained four parts. First one is survey methodology. It describes which sampling method used in this paper,how we collect the data and estimate the cost of surveying. The second part which is data information summaries 5000 people's choice according to four questions in the survey. Thirdly, we explain the distribution of result. Fourthly, we conclude the result and explain how to improve the weakness.
+In the following paper, it contains four parts. The first one is the survey methodology. It describes which sampling method is used in this paper, how we collect the data and estimate the surveying cost. The second part, which is data information, summarizes 5000 people's choice according to four questions in the survey. Thirdly, we explained the distribution of the results. Fourthly, we concluded the outcome and explain how to improve the weakness.
 
 
-## Survey methodology
+## Survey Methodology
 
-The target population for this survey is all Canadian citizens vote for liberal political party in the overall election. The frame for this survey is the list of all Canadian citizens vote for liberal political party in the overall election and registered at Election Canada office. We can find the list of all Canadian citizens who vote for liberal political party in the overall election from Election Canada office. Then we choose 5000 Canadian citizens in this list as sample.
+This survey's target population is all Canadian citizens who vote for the Liberal Party in the general election. This survey's frame is the list of all Canadian citizens voting for the Liberal Party in the general election and registered at the Election Canada office. We can find the list of all Canadian citizens who voted for the liberal Party in the general polls from the Election Canada office. Then we chose 5000 Canadian citizens in this list as a sample.
 
-We will use simple random sampling with replacement. We send out 5000 survey to public and each person can change their answer at any time. It is more easier to analyze a smaller sample size from a larger population. Each unit have equal chance to be selected from population. Using simple random sampling method, we can know the approximate age distribution of the citizens who have right to vote for liberal party. In additional we can analyze what kind of factors the citizens prefer to consider when they vote for the liberal party.
+We used simple random sampling with replacement. We sent out 5000 surveys to the public, and each person can change their answer at any time. It is easier to analyze a smaller sample size from a larger population. Each unit has an equal chance to be selected from the population. Using a simple random sampling method, we can know the approximate age distribution of the citizens who have the right to vote for a liberal party. We can also analyze what kind of factors the citizens prefer to consider when they vote for the Liberal Party.
 
-About methods of survey, we choose online surveys to receive different groups of respondents as complete as possible. The advantages of this method is economical and convenient. For the online survey. We've made 4 brief multiple choice questions on the surveymonkey website. Online survey can increase response rate easily because most people more likely providing reasonable answers compare face to face survey method. For the online survey by surveymonkey website, the total cost will be $32,200[2]. The price per response is $6.44 and the sample size is limited to 5000. So the total price for this survey is $32,200.
+We chose online surveys to receive different groups of respondents as complete as possible about methods of survey. The advantages of this method are economical and convenient for the online survey. We've made four brief multiple choice questions on the SurveyMonkey website. The online survey can easily increase the response rate because most people are more likely to provide reasonable answers than face-to-face survey methods. For the SurveyMonkey website's online survey, the total cost was $32,200 [The screenshot of an online survey's total cost in appendix]. The price per response was $6.44, and the sample size was limited to 5000. So the total price for this survey was $32,200.
 
-While we collecting data, non response is always unavoidable. We can enlarge sample size and use more survey methods to deal with non response. By enlarging sample size, the non response will relatively smaller. By adding more survey methods, we could collect different types of people's data. If a particular group is under or over-represented in the survey due to non-response, the results may be not fair. For instance, if the group of respondents whose occupation lawyers refuse to respond, it will lead to biases in the estimates. To prevent this situation, we have to guarantee the diversity of samples.
+While collecting data, non-response is always unavoidable. We can enlarge the sample size and use more survey methods to deal with the non-response. By expanding the sample size, the non-response will be relatively smaller. By adding more survey methods, we could collect different types of people's data. If a particular group is under or over-represented in the survey due to non-response, the results may not be fair. For instance, if the respondents refuse to respond about their occupation, it will lead to biases in the estimates. To prevent this situation, we have to guarantee the diversity of samples.
 
-To protect respondent privacy, firstly we keep the survey anonymous. The information when submitting the questionnaire( the IP address for logging in, time for submitting) and survey data will bot be shared by the third party. All information will be used for survey purpose. We will notice the respondents that we do not have the right to use their data for other uses except for survey. Secondly, there is no obligation for respondents to provide personal information. We do not have any mandatory personal queonstion or pressure for collecting privacy information in the questionnaire. Most importantly, respondents have the rights to decide whether to provide their information or not. Thirdly, we allow respondents keep the right to achieve their response after the survey is submitted. They have rights to change their answers at any time and we respect their rights to withdraw their submission at any time.
-
+To protect respondent's privacy, firstly, we keep the survey anonymous. The third-party will share the information when submitting the questionnaire( the IP address for logging in, time for submitting), and survey data. All information will be used for survey purposes. We will tell the respondents that we do not have the right to use their data for other uses except for surveys. Secondly, there is no obligation for respondents to provide personal information. We do not have any mandatory personal questions or pressure for collecting privacy information in the questionnaire.
+Most importantly, respondents have the right to decide whether to provide their information or not. Thirdly, respondents have the right to change their answers at any time, and we respect their rights to withdraw their submission at any time.
 
 
 ```{r, warning=FALSE, message=FALSE, include=FALSE}
@@ -152,9 +152,10 @@ set.seed(6138)
 sexuality_count <- sample(1:3,5000,replace=TRUE, prob = c(sexuality,other_sexuality,third_sexuality))
 ```
 
-## Dataset information
 
-The following dataframe has 4 columns and 5000 rows. Each row represents a particular respondent who answer the survey questions. There are 5,000 respondents in total. Each column represents each survey questions. They are household income class group,age group, gender and sexuality group. Each listed following number represents a respondent's choice corresponding to the question. In addition, the order of numbers in each column represents the order of choice from each survey questions. For example, the number 5 in age_count column means the respondent choose the fifth choice of age group, which is over 61^[3].
+## Dataset Information
+
+The next data frame has four columns and 5000 rows. Each row represents a particular respondent who has answered the survey questions. There are 5,000 respondents in total. Each column represents each survey question. They are household income class group, age group, gender, and sexuality group. Each lists following number represents a respondent's choice corresponding to the question. Also, the order of numbers in each column represents the order of choice from each survey question. For example, the number 5 in the age column means the respondent chose the fifth choice of age group, which is over 61^[3].
 
 ```{r ,echo=FALSE}
 # create a dataframe with above income/age/income/gender simulations
@@ -184,9 +185,10 @@ graph_1<- ggplot(data = all_data, aes(x = age_count)) +
 graph_1
 ```
 # Graph Discussion of Figure 1
-The figure 1 represents the data collected from first survey questions "What is your age". For the first question in the survey, we record how many people choose age range among 5 choices. Then we use simulated data to get distribution of 5 age range. The distribution of Figure 1 is left-skewed.
 
-There is relatively small difference in the number of people in the age range of 18-30,31-40,41-50 and 51-60. However, the number of people choose over 61 age range among 5 choices is the most, which is 1805. From the data, we can see that large number of elderly people voted for the Liberal Party and it might be due to the policies that the candidate of Liberal Party has made. The political party also pay attention to those elders and has made effective policies in term of pension insurance, and it might be the reason for those elders to vote for them. 
+Figure 1 represents the data collected from the first survey questions, "What is your age." For the first question in the survey, we record how many people choose the age range among five choices. Then we used simulated data to get a distribution of five age range. The distribution of Figure 1 is left-skewed.
+
+There is a relatively small difference in the number of people in the age range of 18-30,31-40,41-50 and 51-60. However, the number of people who choose over 61 age range among five choices is the most, 1805. From the data, we can see that many older people voted for the Liberal Party, and it might be due to the policies that the candidate of the Liberal Party has made. The political party also pays attention to those elders and has made effective policies in terms of pension insurance, and it might be the reason for those elders to vote for them. 
 
 ```{r,echo=FALSE}
 # create a table with how many people choose each income range, 1 represents income under 30000, 2 represents income between 30001 and 70000,3 represents income between 70001 and 110000,4 represents income between 110001 and 150000, 5 represents income over 150001,
@@ -194,6 +196,7 @@ set.seed(6138)
 income_count_1 <- table((sample(1:5,5000,replace=TRUE, prob = c(Under_30000,less_70000,less_110000,less_150000,over_150001))))
 income_count_1
 ```
+
 ```{r,echo=FALSE}
 # create a histogram with count of different income range among 5000 people 
 library(ggplot2)
@@ -205,11 +208,11 @@ graph_2 <- ggplot(data = all_data, aes(x = income_count)) +
 graph_2
 ```
 
-# Graph Discussion figure 2
+# Graph Discussion Figure 2
 
-To analyze how income would affect the result of the Federal Party Election, we record 5000 people's income range. Figure 2 is approximately normal distribution. 1611 people have an average household salary of $30,001 to $70,000 , followed by 1500 people who earned $70,001 to $110,000 in a year.  Relatively, the number of people earned income at range of 0 - 30000, 110001 - 150000 and over 150001 is small compare with income range of $30,001 to $70,000 and $70,001 to $110,000.
+To analyze how income would affect the Federal Party Election result, we record 5000 people's income range. Figure 2 shows the approximately normal distribution. One thousand six hundred eleven people have an average household salary of $30,001 to $70,000, followed by 1500 people who earned $70,001 to $110,000 in a year.  Relatively, the number of people earned income at the range of 0 - 30000, 110001 - 150000, and over 150001 is smaller compared with the income range of $30,001 to $70,000 and $70,001 to $110,000.
 
-According to the average Canadian salary income in 2019, the average income for Canadian was $52,600 per year. From the simulated data, we found that those people with relatively middle income prefer to vote for Liberal Party. The following policy might affect the result of election. Liberal Party decided to raise the tax on the wealthiest people and cut taxes for the middle class. Therefore, income might be one of the reasons for the participants to make their choices.
+According to the average Canadian salary income in 2019, Canadians' average income was $52,600 per year. We found that those people with relatively middle income prefer to vote for the Liberal Party from the simulated data. The following policy might affect the result of the election. Liberal Party decided to raise the tax on the wealthiest people and cut taxes for the middle class. Therefore, income might be one of the reasons for the participants to make their choices.
 
 ```{r,echo=FALSE}
 # create a table with how many people choose female or male, 1 represents female, 2 represents male 
@@ -232,14 +235,14 @@ graph_3 <- ggplot(data = all_data,aes(x=gender_count))+
   
 graph_3
 ```
-# Graph Discussion figure 3
+# Graph Discussion Figure 3
 
-According to the data we have collected, there are 2907 females and 2093 males who support liberal party. The results of recent polls show that Canada and Canadian men and women have significantly different voting intentions. Men usually pay more attention to the acquisition of benefits, while women overemphasize human nature to varying degrees.
-In the bipartisan competition, their actual promised returns are similar, so the support rate of men is almost equal.
+According to the data, we have collected, 2907 females and 2093 males support the liberal party. The results of the recent polls show that Canadian men and women have significantly different voting intentions. Men usually pay more attention to the acquisition of benefits, while women overemphasize human nature to varying degrees.
+In the bipartisan competition, their actual promised returns are similar, so men's support rate is almost equal.
 
-Male prefer choose the Liberal Party because they offer more attractive policies to ordinary people. For example, the most important policy is a tax cut for people with an annual income of less than £147,000. In fact,most families especially Chinese families earn less than 147,000 pounds. If the Liberal Party cuts taxes for these families, they hope to save a lot every year.
+Male prefer to choose the Liberal Party because they offer more attractive policies to ordinary people. For example, the most important policy is a tax cut for people with an annual income of less than £147,000. Most families, especially Chinese families, earn less than 147,000 pounds. If the Liberal Party cuts taxes for these families, they hope to save a lot every year.
 
-The following policy may increase interest of woman voting for liberal party. Trudeau, the representative of the Liberal Party, has successfully fulfilled his promise to provide more support to survivors of sexual harassment, sexual assault and domestic violence. He promised to develop a comprehensive national strategy to combat gender-based violence, consider gender impact in all government decisions, and launch a national investigation to understand the prevalence of missing and murdered indigenous women and girls. In addition, the rights and interests of the LGBT community in Canada have recently been more comprehensively protected by the Liberal Party, and the new policy has improved the welfare of the elderly and children. 
+The following policy may increase the interest of women voting for the liberal party. Trudeau, the Liberal Party representative, has successfully fulfilled his promise to provide more support to survivors of sexual harassment, sexual assault, and domestic violence. He promised to develop a comprehensive national strategy to combat gender-based violence, consider gender impact in all government decisions, and launch a national investigation to understand the prevalence of missing and murdered indigenous women and girls. Also, the rights and interests of the LGBT community in Canada have recently been more comprehensively protected by the Liberal Party, and the new policy has improved the welfare of the elderly and children. 
 
 ```{r,,echo=FALSE}
 # create a table with how many people choose among three sexuality choice
@@ -247,6 +250,7 @@ set.seed(6138)
 sexuality_count_1 <- table(sample(0:2,5000,replace=TRUE, prob = c(sexuality,other_sexuality,third_sexuality)))
 sexuality_count_1
 ```
+
 ```{r,,echo=FALSE}
 # create a barplot with count of different sexuality choice among 5000 people 
 library(ggplot2)
@@ -261,27 +265,28 @@ graph_4 <- ggplot(data = all_data,aes(x=sexuality_count))+
   
 graph_4
 ```
-# Graph Discussion figure 4
+# Graph Discussion Figure 4
 
-We also discuss about whether sexuality can be one of the reasons that make those participants to vote for Liberal party. From the data we simulated, it is obvious that the graph is right-skewed and 4644 number of people are heterosexual. Then, there are 214 people are bisexual and 142 participants prefer not to say. It's a normal result as we can predict because bisexual group only take small proportion of the whole sexuality in Canada. Although the Liberal party voted to maintain current policies on same-sex marriage, it seems that this action did not have a big influence in the Federal Party Election.
+We also discussed whether sexuality can be one reason that makes those participants vote for the Liberal Party. From the data we simulated, it is evident that the graph is right-skewed, and 4644 number of people are heterosexual. Then, there are 214 people are bisexual, and 142 participants prefer not to say. It's a normal result, as we predicted, because the bisexual group only takes a small proportion of Canada's whole sexuality. Although the Liberal Party voted to maintain current policies on same-sex marriage, it seems that this action did not influence the Federal Party Election.
 
 
 
 
 ## Conclusion
 
-According to figure 1, figure 2, figure 3 and figure 4. We summarize that the gender, class of income and age group play important role in voting Liberal Party. Especially the elderly group, female group and middle class group provide most supports to the Liberal Party. This is based on different politics published by Liberal Party. We can predict that the liberal party will continue receiving supports from female, elderly citizens and middle-class citizens in next election. 
+According to Figure 1, Figure 2, Figure 3, and Figure 4. We summarize that the gender, class of income, and age group play an important role in voting the Liberal Party. The elderly group, the female group, and the middle-class group provide the most supports to the Liberal Party. This is based on different politics published by the Liberal Party. We can predict that the Liberal Party will continue to receive support from females, elderly citizens, and middle-class citizens in the next election. 
 
-However other groups of people provide less percentage of support on voting liberal party. For example, Liberal Party is extremely popular in middle class but receives a little proportion of support from upper and lower class. According to the analysis of figure 2, the Liberal Party not only cuts taxes for middle class but also increases taxes for upper class. Some people from upper class will think it is not fair for them about the growth of taxes. They work hard everyday but still face such a "balanced" policy. Therefore I recommend the Liberal Party should consider how to adjust the tax policy and make a better deal for all economic classes. Other groups of people with a low percentage of support to Liberal Party election may have same properties of reasons as upper-class. So I suggest the liberal party should focus on those groups with low percentage in voting liberal party. They can spend more time on investigating and publishing some better policies so that they will get more support at next election.
+However, other groups of people provide less percentage of support on voting Liberal Party. For example, the Liberal Party is extremely popular in the middle class but receives a little proportion of support from upper and lower classes. According to the analysis of Figure 2, the Liberal Party cuts taxes for the middle class and increases taxes for the upper class. Some people from the upper class will think it is not fair for them about the growth of taxes. They work hard every day but still face such a "balanced" policy. Therefore, I recommend the Liberal Party to consider adjusting the tax policy and making a better deal for all economic classes. Other groups of people with a low percentage of support for the Liberal Party election may have some reasons as the upper-class. So I suggest the liberal party should focus on those groups with a low voting liberal party percentage. They can spend more time investigating and publishing some better policies to get more support at the next election.
 
-In a word, the Liberal Party should not only keep those voters who have already voted the liberals but also pay attention to adjust some policies to attract other groups for voting the liberal party in the future.
+In a word, the Liberal Party should keep those voters who have already voted the liberals and pay attention to adjust some policies to attract other groups for voting the liberal party in the future.
 
-## Weakness and future step
+## Weaknesses and Future Step
 
 
-There are two weakness I would like to work on in the future, First weakness is data limitation. The data we used is updated monthly. So what we are analyzing right now is from the past data. It means we can have a complete analysis based on the past data but we can not use these data to predict the Canadian Polling Election's result in the future. Because data can be changed during updates which lead the result we predict be less precise. The second reason is respondent error. This can be divided to two parts. There are still other groups of people who doesn't have chance to answer online survey such as over 80 yrs old people or people with disability. It leads the distribution of data being not precise as well. On the other hand, some respondents prefer not to answer survey questions or provide unreasonable answers which will cause data bias and lead us getting a wrong conclusion.
+There is two weakness we would like to work on in the future. The first weakness is the data limitation. The data we used is updated monthly. So what we are analyzing right now is from past data. We can have a complete analysis based on past data, but we can not use these data to predict the Canadian Polling Election's result in the future. Because data can be changed during updates that lead the result, we expect to be less precise. The second reason is the respondent error. This can be divided into two parts. There are still other groups of people who don't have a chance to answer an online survey such as over 80 yrs older people or people with disabilities. It leads to the distribution of data being not precise as well. On the other hand, some respondents prefer not to answer survey questions or provide unreasonable answers, causing data bias, and leading us to get a wrong conclusion.
 
-In future, to reduce the errors we mentioned, we will try our best to enlarge the sample size. We will use more survey methods instead of only taking online survey so that there will be more different groups of people who can take survey and give us answers. In this way, the respondent bias can be reduced and we can get a more real analysis of data. Also, due to the limitation of data, I think we need to get more updated data in the future so that we can compare difference between these data and get a more accurate result.
+In the future, to reduce the errors we mentioned, we will try our best to enlarge the sample size. We will use more survey methods instead of only taking the online survey to be more different groups of people who can take surveys and give us answers. In this way, the respondent bias can be reduced, and we can get a more realistic data analysis. Also, due to the limitation of data, I think we need to get more updated data in the future to compare the difference between these data and get a more accurate result.
+
 
 ## Appendix
  
@@ -290,7 +295,7 @@ In future, to reduce the errors we mentioned, we will try our best to enlarge th
 knitr::include_graphics("/Users/macbookpro/Desktop/cost.png")
 ```
 3. The link of survey: https://www.surveymonkey.com/r/DJKJXYQ
-The link of github with total code:  
+The link of github with total code:  https://github.com/FangJIA-0725/new-304
 
 The screenshot of the survey:
 ```{r echo=FALSE, fig.cap="The overall electors vote for Liberal Party"}
@@ -299,6 +304,8 @@ knitr::include_graphics("/Users/macbookpro/Desktop/WechatIMG293.png")
 
 knitr::include_graphics("/Users/macbookpro/Desktop/WechatIMG294.png")
 ```
+
+
 ## References
 
 - A Responsible Fiscal Plan: Our Platform. (n.d.). Retrieved from https://liberal.ca/our-platform/a-responsible-fiscal-plan/
