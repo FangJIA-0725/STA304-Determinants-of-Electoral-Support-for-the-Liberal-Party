@@ -1,5 +1,5 @@
 ---
-title: "Gender, Income And Age Might Affect The Vote For Liberal Political Party" 
+title: "Analyzing Key Factors Influencing Voter Preference for the Liberal Party" 
 author: "Fang Jia, Anan Jiang, Yilin Wang,Yao Xiao"
 date: "10/7/2020"
 output:
